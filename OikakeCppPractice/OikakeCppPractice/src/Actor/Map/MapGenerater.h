@@ -9,21 +9,26 @@ class MapGenerater {
 public:
 	// マップチップの種類
 	enum MapChip {
-		None,
-		Hole,
+		None,			//範囲外参照用疑似NULL
+		NormalTile,
+		Hole,			//穴
+		Tofu,
 		OnePlayerField,
-		TwoPlayerField,
+		TwoPlayerField,	
+
 	};
 
 	// コンストラクタ
 	MapGenerater();
 
 	// マップゲッター
-	MapChip get_map(int x, int y);
+	MapChip  get_map(int x, int y);
 
 	// マップセッター
 	void set_map(int x, int y, MapChip value);
 
 private:
+	const int map_X = 8;
+	const int map_Y = 10;
 	MapChip map[8][10];
 };
