@@ -3,72 +3,70 @@
   ActorBase.cpp
   ActorManager.cpp
   Enemy.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Player.cpp
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\actor\player\player.cpp(26): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Score.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   TimerUI.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   FPS.cpp
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\application\fps\fps.cpp(7): warning C4244: '初期化中': 'const float' から 'const int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\application\fps\fps.cpp(49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   GameApplication.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   GameFrame.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   LoadData.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Window.cpp
   Collision.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\collision\collision.cpp(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Box.cpp
   Circle.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\collision\collision2d\circle\circle.cpp(4): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   ShapeBase2D.cpp
   ShapeBase.cpp
   Input.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\input\input.h(3): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   KeyBoard.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\input\keyboard\keyboard.h(3): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   コードを生成中...
   コンパイル中...
   main.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\main.cpp(1): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Bezier.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Convert.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Math.cpp
   Matrix4.cpp
   Quaternion.cpp
   Vector2.cpp
   Vector3.cpp
   Renderer.cpp
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(41): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(44): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(43): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(57): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(61): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(60): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(59): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(66): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\renderer\renderer.cpp(90): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   SceneManager.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   SceneNull.cpp
   FadeManager.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   GameMain.cpp
-c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\memory(1858): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\memory(1922): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
-          with
-          [
-              _Ty=TimerUI
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.13.26128\include\memory(1923): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
-          with
-          [
-              _Ty=TimerUI
-          ]
-  d:\team10_2018\oikakecpppractice\oikakecpppractice\src\scenes\gamemain\gamemain.cpp(42): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Result.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Title.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Color.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   CSVLoader.cpp
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\utility\csvloader\csvloader.cpp(26): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-d:\team10_2018\oikakecpppractice\oikakecpppractice\src\utility\csvloader\csvloader.cpp(31): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\csvloader\csvloader.cpp(26): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\csvloader\csvloader.cpp(31): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
   Random.cpp
   Timer.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   Utility.cpp
+e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
   コードを生成中...
   コンパイル中...
   World.cpp
   コードを生成中...
-  OikakeCppPractice.vcxproj -> D:\team10_2018\OikakeCppPractice\x64\Debug\OikakeCppPractice.exe

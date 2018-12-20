@@ -27,6 +27,7 @@ GameMain::~GameMain() {
 void GameMain::LoadAssets()
 {
 	renderer.LoadTexture(Assets::Texture::Background, "background.png");
+	//renderer.LoadTexture(Assets::Texture::Map, "map.png");
 	renderer.LoadTexture(Assets::Texture::Player, "white.png");
 	renderer.LoadTexture(Assets::Texture::Enemy, "black.png");
 	renderer.LoadTexture(Assets::Texture::Number, "number.png");
