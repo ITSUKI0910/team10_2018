@@ -4,7 +4,6 @@
 #include"Application/Window/Window.h"
 #include"Collision/Collision2D/Circle/Circle.h"
 
-
 Player::Player(IWorld * world, const Vector2 & position)
 	: Actor2D(world,"player",position, std::make_shared<Circle>(Vector2::Zero, 32.0f))
 	, Speed(5.0f)
