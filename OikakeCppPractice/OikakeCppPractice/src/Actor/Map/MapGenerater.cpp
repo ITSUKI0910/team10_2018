@@ -5,28 +5,47 @@ MapGenerater::MapGenerater() {
 	CSVLoader loader("map.csv");
 
 	// マップデータをコピー
+<<<<<<< HEAD
 	for (int i = 0; i < 8; ++i) {
 		for (int j = 0; j < 10; ++j) {
+=======
+	for (int i = 0; i < map_X; ++i) {
+		for (int j = 0; j < map_Y; ++j) {
+>>>>>>> 0367445c4c33d12aa03ee4a2664e08e4d3b65681
 			map[i][j] = static_cast<MapChip>(loader.GetDataInt(j, i));
 		}
 	}
 }
 
+<<<<<<< HEAD
 MapGenerater::MapChip MapGenerater::get_mapChip(int x, int y) {
 	if (map[y][x] == NULL) {
+=======
+MapGenerater::MapChip  MapGenerater::get_map(int x, int y) {
+	if (map[y][x] == NULL)
+	{
+>>>>>>> 0367445c4c33d12aa03ee4a2664e08e4d3b65681
 		return None;
 	}
 	return map[y][x];
 }
 
+<<<<<<< HEAD
 // 二次元配列のx, yを指定して、変えたい値に変える(値がMapChip)
 void MapGenerater::set_map(int x, int y, MapGenerater::MapChip & value) {
 	if (x < 0 || y < 0 || x >= map_X || y >= map_Y) {
+=======
+// 二次元配列のx, yを指定して、変えたい値に変える
+void MapGenerater::set_map(int x, int y, MapGenerater::MapChip value) {
+	if (x < 0 || y < 0 || x >= map_X || y >= map_Y)
+	{
+>>>>>>> 0367445c4c33d12aa03ee4a2664e08e4d3b65681
 		return;
 	}
 	map[y][x] = value;
 }
 
+<<<<<<< HEAD
 // 二次元配列のx, yを指定して、変えたい値に変える(値がint型)
 void MapGenerater::set_map(int x, int y, int value) {
 
@@ -65,5 +84,7 @@ Vector2 MapGenerater::get_pos(int x, int y) const {
 
 
 
+=======
+>>>>>>> 0367445c4c33d12aa03ee4a2664e08e4d3b65681
 // CSVLoaderを初期化
 int loader{ 0 };

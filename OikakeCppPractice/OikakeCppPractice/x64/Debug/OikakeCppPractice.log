@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Actor2D.cpp
   Actor3D.cpp
   ActorBase.cpp
@@ -70,3 +71,6 @@ e:\programming\team10_git\oikakecpppractice\oikakecpppractice\src\math\convert\c
   コンパイル中...
   World.cpp
   コードを生成中...
+=======
+﻿  OikakeCppPractice.vcxproj -> D:\team10_2018\OikakeCppPractice\x64\Debug\OikakeCppPractice.exe
+>>>>>>> 0367445c4c33d12aa03ee4a2664e08e4d3b65681
