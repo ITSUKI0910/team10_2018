@@ -29,9 +29,9 @@ public:
 	bool check_hole(int x, int y);
 
 private:
-	static const int map_X{ 10 };					// マップが横に何マスあるか
+	static const int map_X{ 8 };					// マップが横に何マスあるか
 	static const int map_Y{ 8 };					// マップが縦に何マスあるか	
-	static const int space{ 2 };					// １マス１マスの間の隙間(ドット換算)
+	static const int space{ 1 };					// １マス１マスの間の隙間(ドット換算)
 	Assets::Texture map[map_Y][map_X]{};			// マップの種類とテクスチャ兼用
 	WorldPtr world;
 	Vector3 mapPosition_And_Chip{ {0}, {0}, {0} };	// 最初のx,yには座標が入り、zにはマップの種類(Textureのint型)が入る

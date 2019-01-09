@@ -23,7 +23,7 @@ void MapGenerater::AddMapChip() {
 	{
 		for(int j = 0; j < map_X; j++)
 		{
-			world->AddActor_Back(ActorGroup::Map, std::make_shared<MapChip>(world.get(), map[i][j], get_pos(i, j)));
+			world->AddActor_Back(ActorGroup::Map, std::make_shared<MapChip>(world.get(), map[i][j], get_pos(j, i)));
 		}
 	}
 }
@@ -49,10 +49,10 @@ Vector3 MapGenerater::get_posAndChip(int x, int y) const {
 
 // 知りたいマスのx、yを指定するとそこの座標が返ってくる
 Vector2 MapGenerater::get_pos(int x, int y) const {
-	float tempX = (106.0f + space) * x;
-	float tempY = (50.0f + space) * y;
+	float tempX = (112.0f + space) * x;
+	float tempY = (64.0f + space) * y;
 
-	tempX += 214.0f;
+	tempX += 196.0f;
 	tempY += 100.0f;
 
 	return Vector2(tempX, tempY);
