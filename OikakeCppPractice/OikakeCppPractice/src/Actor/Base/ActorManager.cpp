@@ -79,12 +79,13 @@ void ActorManager::Clear()
 }
 
 void ActorManager::RegisterGroup() {
-	AddGroup(ActorGroup::BackGround, "BackGrountRoot");
-	AddGroup(ActorGroup::Enemy, "EnemyRoot");
-	AddGroup(ActorGroup::Player, "PlayerRoot");
-	AddGroup(ActorGroup::UI, "UIRoot");
+	AddGroup(ActorGroup::Map, "MapRoot");
+	//AddGroup(ActorGroup::BackGround, "BackGrountRoot");
+	//AddGroup(ActorGroup::Enemy, "EnemyRoot");
+	//AddGroup(ActorGroup::Player, "PlayerRoot");
+	//AddGroup(ActorGroup::UI, "UIRoot");
 }
 
 void ActorManager::Collide() {
-	actors[ActorGroup::Player]->CollideChildren(*actors[ActorGroup::Enemy]);
+	//actors[ActorGroup::Player]->CollideChildren(*actors[ActorGroup::Enemy]);
 }

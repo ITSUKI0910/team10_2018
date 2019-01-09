@@ -14,12 +14,23 @@ namespace Assets {
 	* 使用するテクスチャの定義
 	*/
 	enum class Texture {
-		Background,
-		Map,
-		Player,
-		Enemy,
-		Number,
+		//Background,
+		//Map,
+		//Player,
+		//Enemy,
+		//Number,
+		//Title,
+		//Result
+
+		// マップチップも兼用
+		NormalTile,
+		Hole,			//穴
+		Tofu,
+		OnePlayerField,
+		TwoPlayerField,
+
 		Title,
-		Result
+
+		None,			//範囲外参照用疑似NULL
 	};
 }

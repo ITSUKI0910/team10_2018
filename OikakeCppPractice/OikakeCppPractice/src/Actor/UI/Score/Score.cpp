@@ -20,7 +20,7 @@ void Score::OnInitialize()
 
 void Score::OnDraw(Renderer & renderer)
 {
-	renderer.DrawNumber(Assets::Texture::Number, position, score, 32, 64, 3);
+	//renderer.DrawNumber(Assets::Texture::Number, position, score, 32, 64, 3);
 }
 
 void Score::OnFinalize()

@@ -9,8 +9,9 @@
 enum class ActorGroup {
 	//!デフォルト
 	None,
-	BackGround,
-	Player,
-	Enemy,
-	UI
+	//BackGround,
+	//Player,
+	//Enemy,
+	//UI
+	Map,
 };

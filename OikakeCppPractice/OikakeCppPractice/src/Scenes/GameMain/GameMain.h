@@ -12,6 +12,8 @@
 #include"World/IWorld.h"
 #include"World/WorldPtr.h"
 
+#include "Actor/Map/MapGenerater/MapGenerater.h"
+
 class Renderer;
 enum class EventMessage;
 
@@ -72,8 +74,11 @@ private:
 private:
 	//!ワールドポインタ
 	WorldPtr world;
+
+	MapGenerater mapGenerater;
+
 	//!描画クラス
 	Renderer& renderer;
 	//!シーンが終了したか判定用
-	bool isEnd;
+	bool isEnd{};
 };

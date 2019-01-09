@@ -18,8 +18,8 @@ Result::~Result()
 
 void Result::LoadAssets()
 {
-	renderer.LoadTexture(Assets::Texture::Result, "result.png");
-	renderer.LoadTexture(Assets::Texture::Number, "number.png");
+	//renderer.LoadTexture(Assets::Texture::Result, "result.png");
+	//renderer.LoadTexture(Assets::Texture::Number, "number.png");
 
 }
 
@@ -27,7 +27,7 @@ void Result::Initialize()
 {
 	isEnd = false;
 	world->Initialize();
-	world->AddActor_Back(ActorGroup::UI, std::make_shared<Score>(world.get()));
+	//world->AddActor_Back(ActorGroup::UI, std::make_shared<Score>(world.get()));
 
 }
 
@@ -42,7 +42,7 @@ void Result::Update(float deltaTime)
 
 void Result::Draw() const
 {
-	renderer.DrawTexture(Assets::Texture::Result);
+	//renderer.DrawTexture(Assets::Texture::Result);
 	world->Draw(renderer);
 }
 

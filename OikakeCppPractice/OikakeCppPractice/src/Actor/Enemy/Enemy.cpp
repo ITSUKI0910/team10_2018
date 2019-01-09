@@ -24,7 +24,7 @@ void Enemy::OnUpdate(float deltaTime)
 
 void Enemy::OnDraw(Renderer & renderer)
 {
-	renderer.DrawTexture(Assets::Texture::Enemy, position);
+	//renderer.DrawTexture(Assets::Texture::Enemy, position);
 
 }
 

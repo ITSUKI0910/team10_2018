@@ -27,9 +27,9 @@ void TimerUI::OnUpdate(float deltaTime)
 void TimerUI::OnDraw(Renderer & renderer)
 {
 	int minute = (int)timer.GetSecond() / 60;
-	renderer.DrawNumber(Assets::Texture::Number, position, minute, 32, 64, 2);
+	//renderer.DrawNumber(Assets::Texture::Number, position, minute, 32, 64, 2);
 	int second = (int)timer.GetSecond() % 60;
-	renderer.DrawNumber(Assets::Texture::Number, position + Vector2(32 * 3,0.0f), second, 32, 64, 2);
+	//renderer.DrawNumber(Assets::Texture::Number, position + Vector2(32 * 3,0.0f), second, 32, 64, 2);
 }
 
 void TimerUI::OnFinalize()

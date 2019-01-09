@@ -1,7 +1,6 @@
 #include "GameMain.h"
 #include "Scenes/Base/Scene.h"
 
-
 #include"World/World.h"
 #include"Actor/Base/ActorGroup.h"
 #include"Renderer/Renderer.h"
@@ -17,34 +16,34 @@
 GameMain::GameMain(WorldPtr& world)
 	: isEnd(false)
 	, world(world)
+	, mapGenerater(world)
 	, renderer(Renderer::GetInstance())
 {
 }
 
-GameMain::~GameMain() {
+GameMain::~GameMain() { 
 }
 
 void GameMain::LoadAssets()
 {
-	renderer.LoadTexture(Assets::Texture::Background, "background.png");
+	//renderer.LoadTexture(Assets::Texture::Background, "background.png");
+	renderer.LoadTexture(Assets::Texture::NormalTile, "normalTile.png");
+	renderer.LoadTexture(Assets::Texture::Hole, "hole.png");
 	//renderer.LoadTexture(Assets::Texture::Map, "map.png");
-	renderer.LoadTexture(Assets::Texture::Player, "white.png");
-	renderer.LoadTexture(Assets::Texture::Enemy, "black.png");
-	renderer.LoadTexture(Assets::Texture::Number, "number.png");
 }
 
 void GameMain::Initialize() {
 	world->GetSceneShareValue().Initialize();
 	world->Initialize();
 
+	mapGenerater.AddMapChip();
+	//world->AddActor_Back(ActorGroup::Player, std::make_shared<Player>(world.get(), Vector2::Zero));
+	//world->AddActor_Back(ActorGroup::UI, std::make_shared<Score>(world.get()));
+	//world->AddActor_Back(ActorGroup::UI, std::make_shared<TimerUI>(world.get(),1 * 60));
 
-	world->AddActor_Back(ActorGroup::Player, std::make_shared<Player>(world.get(), Vector2::Zero));
-	world->AddActor_Back(ActorGroup::UI, std::make_shared<Score>(world.get()));
-	world->AddActor_Back(ActorGroup::UI, std::make_shared<TimerUI>(world.get(),1 * 60));
-
-	for (int i = 0; i < 10; ++i) {
-		world->AddActor_Back(ActorGroup::Enemy, std::make_shared<Enemy>(world.get(), Vector2(Random::Rangef(0.0f,Window::width - 64.0f),Random::Rangef(0.0f,Window::height - 64.0f))));
-	}
+	//for (int i = 0; i < 10; ++i) {
+	//	world->AddActor_Back(ActorGroup::Enemy, std::make_shared<Enemy>(world.get(), Vector2(Random::Rangef(0.0f,Window::width - 64.0f),Random::Rangef(0.0f,Window::height - 64.0f))));
+	//}
 
 	isEnd = false;
 
@@ -60,7 +59,7 @@ void GameMain::Update(float deltaTime) {
 }
 
 void GameMain::Draw() const {
-	renderer.DrawTexture(Assets::Texture::Background);
+	//renderer.DrawTexture(Assets::Texture::Background);
 	world->Draw(renderer);
 }
 

@@ -20,14 +20,13 @@ void Player::OnInitialize()
 
 void Player::OnUpdate(float deltaTime)
 {
-
 	position += Input::GetInstance().GetVelocity() * Speed * deltaTime;
 	position.Clamp(Vector2::Zero, Vector2(Window::width - 64, Window::height -64));
 }
 
 void Player::OnDraw(Renderer & renderer)
 {
-	renderer.DrawTexture(Assets::Texture::Player, position);
+	//renderer.DrawTexture(Assets::Texture::Player, position);
 
 }
 
