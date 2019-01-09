@@ -5,3 +5,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 {
 	return GameFrame().Run();
 }
+/*
+1,30
+
+—š—ğ‘
+ì•i
+
+‰H“c
+
+3‚©‚¢
+
+“ñ‰ñó‚¯‚é‚±‚Æ‚ªo—ˆ‚é
+
+*/

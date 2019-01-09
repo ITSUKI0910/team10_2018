@@ -5,7 +5,7 @@
 
 class TimerUI : public Actor2D {
 public:
-	TimerUI(IWorld* world, float time);
+	TimerUI(IWorld* world, float time,  const int& _number);
 	~TimerUI();
 private:
 	virtual void OnInitialize() override;

@@ -3,19 +3,21 @@
 #include<algorithm>
 #include"World/IWorld.h"
 ActorBase::ActorBase()
-	: ActorBase(nullptr,"none")
+	: ActorBase(nullptr,"none", Vector2::Zero,0)
 {
 }
 
-ActorBase::ActorBase(IWorld * world, const std::string & name)
+ActorBase::ActorBase(IWorld * world, const std::string & name, const Vector2& position, const int& _number)
 	: world(world)
 	, name(name)
 	, status(Status::Active)
+	, position(position)
+	, number(_number)
 {
 }
 
 ActorBase::ActorBase(const std::string & name)
-	: ActorBase(nullptr,name)
+	: ActorBase(nullptr,name, Vector2::Zero,0)
 {
 }
 
@@ -26,7 +28,6 @@ ActorBase::~ActorBase()
 void ActorBase::Initialize()
 {
 	OnInitialize();
-
 	EachChildren([](ActorBase& actor) {
 		actor.Initialize();
 	});
@@ -105,8 +106,10 @@ void ActorBase::Collide(ActorBase & other)
 
 void ActorBase::CollideChildren(ActorBase & other)
 {
-	EachChildren([&other](ActorBase& my) {
-		other.EachChildren([&](ActorBase& target) {
+	EachChildren([&other](ActorBase& my) 
+	{
+		other.EachChildren([&](ActorBase& target) 
+		{
 			my.Collide(target);
 		});
 	});
@@ -279,3 +282,11 @@ void ActorBase::OnCollide(const HitInfo & hitInfo)
 	static_cast<void>(hitInfo);
 }
 
+Vector2 ActorBase::GetVec2Position()
+{
+	return position;
+}
+int ActorBase::GetNumber()
+{
+	return number;
+}

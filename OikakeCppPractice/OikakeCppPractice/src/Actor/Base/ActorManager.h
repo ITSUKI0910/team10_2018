@@ -112,4 +112,6 @@ private:
 	ActorBase root;
 	//グループ別に登録するアクター配列
 	std::unordered_map<ActorGroup, ActorPtr> actors;
+
+	int a = 0;
 };

@@ -51,7 +51,10 @@ Vector2 Input::GetVelocity() const
 {
 	return Vector2(GetHorizontal(), GetVertical());
 }
-
+Vector2 Input::GetVelocity2() const
+{
+	return Vector2(GetHorizontal2(), GetVertical2());
+}
 
 float Input::GetVertical() const
 {

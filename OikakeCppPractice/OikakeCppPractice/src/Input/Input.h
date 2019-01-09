@@ -68,6 +68,7 @@ public:
 	/// </summary>
 	/// <returns>ˆÚ“®—Ê(0.0 ` 1.0)</returns>
 	Vector2 GetVelocity() const;
+	Vector2 GetVelocity2() const;
 
 	KeyBoard& GetKeyBoard();
 private:

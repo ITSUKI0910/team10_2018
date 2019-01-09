@@ -1,8 +1,8 @@
 #include "TimerUI.h"
 #include"Renderer/Renderer.h"
 
-TimerUI::TimerUI(IWorld * world, float time)
-	: Actor2D(world,"TimerUI",Vector2::Zero,nullptr)
+TimerUI::TimerUI(IWorld * world, float time , const int& _number)
+	: Actor2D(world,"TimerUI",Vector2::Zero,nullptr, _number)
 	, timer(time, [&]() {
 		GameEnd();
 	})

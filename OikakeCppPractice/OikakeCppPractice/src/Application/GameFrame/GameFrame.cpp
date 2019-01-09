@@ -24,11 +24,11 @@ void GameFrame::Initialize()
 	world = std::make_shared<World>();
 	sceneManager.Initialize();
 
-	sceneManager.Add(Scene::Title, std::make_shared<Title>(world));
+	//sceneManager.Add(Scene::Title, std::make_shared<Title>(world));
 	sceneManager.Add(Scene::GameMain, std::make_shared<GameMain>(world));
 	sceneManager.Add(Scene::Result, std::make_shared<Result>(world));
 
-	sceneManager.Change(Scene::Title);
+	sceneManager.Change(Scene::GameMain);
 
 }
 

@@ -3,7 +3,7 @@
 #include"World/SceneShareValue/SceneShareValue.h"
 
 Score::Score(IWorld * world)
-	: Actor2D(world, "Score", Vector2::Zero, nullptr)
+	: Actor2D(world, "Score", Vector2::Zero, nullptr,0)
 	, score(0)
 {
 	status = Status::DrawOnly;

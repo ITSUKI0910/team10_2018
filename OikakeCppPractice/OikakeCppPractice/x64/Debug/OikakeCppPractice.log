@@ -1,1 +1,72 @@
-﻿  OikakeCppPractice.vcxproj -> D:\team10_2018\OikakeCppPractice\x64\Debug\OikakeCppPractice.exe
+﻿  Actor2D.cpp
+  Actor3D.cpp
+  ActorBase.cpp
+  ActorManager.cpp
+  Enemy.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Player.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Score.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  TimerUI.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  FPS.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  GameApplication.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  GameFrame.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  LoadData.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Window.cpp
+  Collision.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\collision\collision.cpp(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Box.cpp
+  Circle.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\collision\collision2d\circle\circle.cpp(4): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  ShapeBase2D.cpp
+  ShapeBase.cpp
+  Input.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\input\input.h(3): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  KeyBoard.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\input\keyboard\keyboard.h(3): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  コードを生成中...
+  コンパイル中...
+  main.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\main.cpp(1): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Bezier.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Convert.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Math.cpp
+  Matrix4.cpp
+  Quaternion.cpp
+  Vector2.cpp
+  Vector3.cpp
+  Renderer.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  SceneManager.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  SceneNull.cpp
+  FadeManager.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  GameMain.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Result.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Title.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Color.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  CSVLoader.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\csvloader\csvloader.cpp(26): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\csvloader\csvloader.cpp(31): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  Random.cpp
+  Timer.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\utility\color\color.h(11): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  Utility.cpp
+c:\users\itsuk\desktop\oikakecpppractice\oikakecpppractice\src\math\convert\convert.h(6): fatal error C1083: include ファイルを開けません。'DxLib.h':No such file or directory
+  コードを生成中...
+  コンパイル中...
+  World.cpp
+  コードを生成中...

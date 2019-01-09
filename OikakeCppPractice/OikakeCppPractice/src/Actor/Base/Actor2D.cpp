@@ -1,9 +1,8 @@
 #include "Actor2D.h"
 #include"Collision/Collision2D/ShapeBase2D.h"
 
-Actor2D::Actor2D(IWorld * world, const std::string & name, const Vector2 & position, const ShapePtr2D & body)
-	: ActorBase(world, name)
-	, position(position)
+Actor2D::Actor2D(IWorld * world, const std::string & name, const Vector2 & position, const ShapePtr2D & body, const int& _number)
+	: ActorBase(world, name, position, _number)
 	, body(body)
 {
 }

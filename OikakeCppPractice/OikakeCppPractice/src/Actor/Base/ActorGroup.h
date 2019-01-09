@@ -11,6 +11,7 @@ enum class ActorGroup {
 	None,
 	BackGround,
 	Player,
+	Player2,
 	Enemy,
 	UI
 };

@@ -10,11 +10,12 @@ class HitInfo;
 #include<string>
 #include<functional>
 #include<list>
+#include"Math/Vector2/Vector2.h"
 
 class ActorBase {
 public:
 	ActorBase();
-	ActorBase(IWorld* world, const std::string& name);
+	ActorBase(IWorld* world, const std::string& name, const Vector2& position, const int& _number);
 	explicit ActorBase(const std::string& name);
 	virtual ~ActorBase();
 public:
@@ -47,6 +48,8 @@ public:
 	void ClearChildren();
 	std::list<ActorPtr>& GetChildren();
 	int GetChildNum() const;
+	Vector2 GetVec2Position();
+	int GetNumber();
 protected:
 	virtual void OnInitialize();
 	virtual void OnUpdate(float deltaTime);
@@ -56,10 +59,13 @@ protected:
 	virtual void OnMessage(EventMessage message, void* param);
 	virtual bool IsCollide(const ActorBase& other, HitInfo& hitInfo);
 	virtual void OnCollide(const HitInfo& hitInfo);
+
 protected:
 	IWorld* world;
 	std::string name;
 	Status	status;
+	Vector2 position;
+	int number = 0;
 private:
 	std::list<ActorPtr> children;
 private:

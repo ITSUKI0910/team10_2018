@@ -5,7 +5,7 @@
 using namespace cpplinq;
 
 Actor3D::Actor3D()
-	: ActorBase(nullptr,"none")
+	: ActorBase(nullptr,"none", Vector2::Zero,0)
 	, position()
 	, matrix()
 	, bodies(0)
@@ -13,7 +13,7 @@ Actor3D::Actor3D()
 }
 
 Actor3D::Actor3D(IWorld * world, const std::string & name, const Vector3 & position, const ShapePtr & body)
-	: ActorBase(world,name)
+	: ActorBase(world,name,Vector2::Zero,0)
 	, position(position)
 	, matrix()
 	, bodies(0)
@@ -25,7 +25,7 @@ Actor3D::Actor3D(IWorld * world, const std::string & name, const Vector3 & posit
 }
 
 Actor3D::Actor3D(IWorld * world, const std::string & name, const Vector3 & position, const std::vector<ShapePtr>& bodies)
-	: ActorBase(world, name)
+	: ActorBase(world, name, Vector2::Zero,0)
 	, position(position)
 	, matrix()
 	, bodies(bodies)

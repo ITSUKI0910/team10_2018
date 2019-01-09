@@ -4,7 +4,7 @@
 
 class Player : public Actor2D {
 public:
-	Player(IWorld* world, const Vector2& position);
+	Player(IWorld* world, const Vector2& position, const int& _number);
 	~Player();
 private:
 	virtual void OnInitialize() override;

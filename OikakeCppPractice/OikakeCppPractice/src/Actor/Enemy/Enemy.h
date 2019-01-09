@@ -4,7 +4,7 @@
 
 class Enemy : public Actor2D {
 public:
-	Enemy(IWorld* world, const Vector2& position);
+	Enemy(IWorld* world, const Vector2& position, const int& _number);
 	~Enemy();
 private:
 	virtual void OnInitialize() override;
@@ -14,6 +14,6 @@ private:
 	virtual void OnMessage(EventMessage message, void* param)override;
 	virtual void OnCollide(const HitInfo& hitInfo)override;
 private:
-	void ReSpawn();
-
+	void Move();
+	bool b_move = false;
 };

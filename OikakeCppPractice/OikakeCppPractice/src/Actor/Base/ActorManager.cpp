@@ -87,4 +87,5 @@ void ActorManager::RegisterGroup() {
 
 void ActorManager::Collide() {
 	actors[ActorGroup::Player]->CollideChildren(*actors[ActorGroup::Enemy]);
+	actors[ActorGroup::Enemy]->CollideChildren(*actors[ActorGroup::Enemy]);
 }

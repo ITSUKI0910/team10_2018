@@ -76,4 +76,6 @@ private:
 	Renderer& renderer;
 	//!シーンが終了したか判定用
 	bool isEnd;
+
+	int objNumber = 0;
 };

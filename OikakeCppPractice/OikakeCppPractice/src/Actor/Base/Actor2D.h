@@ -5,7 +5,7 @@
 
 class Actor2D : public ActorBase {
 public:
-	Actor2D(IWorld* world, const std::string& name, const Vector2& position, const ShapePtr2D& body);
+	Actor2D(IWorld* world, const std::string& name, const Vector2& position, const ShapePtr2D& body , const int& _number);
 	virtual ~Actor2D();
 protected:
 	virtual void OnInitialize();
@@ -17,6 +17,5 @@ protected:
 private:
 	virtual bool IsCollide(const ActorBase& other, HitInfo& hitInfo) override;
 protected:
-	Vector2 position;
 	ShapePtr2D body;
 };

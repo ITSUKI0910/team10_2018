@@ -16,6 +16,7 @@ namespace Assets {
 	enum class Texture {
 		Background,
 		Player,
+		Player2,
 		Enemy,
 		Number,
 		Title,
